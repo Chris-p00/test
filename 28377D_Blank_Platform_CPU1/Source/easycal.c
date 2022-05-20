@@ -1,7 +1,7 @@
 /*
  * easycal.c
  *
- *  Created on: 2021. 7. 8.
+ *  Created on: 2021. 7. 8.asd
  *      Author: KYJ-PC
  */
 
