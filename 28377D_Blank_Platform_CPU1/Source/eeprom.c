@@ -40,7 +40,7 @@ void Init_I2c_Eeprom()
 
     EALLOW;
 
-    // I2C_PWR
+    // I2C_PWRasds
     GpioCtrlRegs.GPEGMUX1.bit.GPIO133 = 0;
     GpioDataRegs.GPEDAT.bit.GPIO133 = 1;
     GpioCtrlRegs.GPEDIR.bit.GPIO133 = 1;
@@ -56,7 +56,7 @@ void Init_I2c_Eeprom()
     // Put I2C module in the reset state
     I2caRegs.I2CMDR.bit.IRS = 0;
 
-    // Set Slave Address according to AT24C16 device
+    // Set Slave Address according to AT24C16 deviceasd
 //  I2caRegs.I2CSAR.all = 0x0050;
 //  I2caRegs.I2COAR.all = 0x002D;
 

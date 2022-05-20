@@ -12,7 +12,7 @@
 
 /*
  * ========================
- *      Sum_Arr_Float
+ *      Sum_Arr_Floatasd
  * ========================
  *
  * 1. parameter
